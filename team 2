@@ -1,1 +1,70 @@
-hi 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bradford WW1 Memorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bradford WW1 Memorial</h1>
+        <p>Honoring the Sacrifice of Bradfordians in the Great War</p>
+    </header>
+
+    <section>
+        <h2>About the Memorial</h2>
+        <p>This memorial is dedicated to the brave men and women from Bradford who made the ultimate sacrifice during World War I. Their courage and commitment will never be forgotten.</p>
+        <p>Explore this site to learn more about their stories, contributions, and the impact they had on our community.</p>
+    </section>
+
+    <section>
+        <h2>Gallery</h2>
+        <p>View a collection of photos and documents from the era, showcasing the lives of those who served and the community they left behind.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bradford WW1 Memorial. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
