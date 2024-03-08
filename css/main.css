@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+*{
+  margin: 0;
+  font-family: "Kameron";
+  padding: 0;
+  
+  
+}
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.section1{
+  width: 100%;
+  height: 80vh;
+  background-image:url("../images/v1_3.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.intro{
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 40px;
+  color: white;
+}
+.search{
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid white;
+  font-size: 20px;
+  color: white;
+  margin-left: 10%;
+}
+
+.section2{
+  height: 100vh;
+  width: 100%;
+  margin-top: 100vh;
+}
+
+.card {
+  border: 1px solid var(--color-three);
+  margin-bottom: 20px;
+  transition: border 0.1s, transform 0.3s;
+}
+
+.card:hover {
+  border: 1px solid var(--color-two);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.card .card-body h2 {
+  color: var(--color-two);
+}
+
+.card img:hover {
+opacity: 0.6;
+}
+
+.card-p {
+  color: var(--color-three);
+}
+
+.card-p i {
+  color: var(--color-two);
+  margin-right: 8px;
+}
+
+.section4{
+  width: 100%;
+  height: 50vh;
+  background-image:linear-gradient(90deg, rgba(88,87,107,0.5971638655462185) 0%, rgba(104,104,113,0.6055672268907564) 35%, rgba(43,82,89,0.4010854341736695) 100%),url("../images/v2_20.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50vh;
+}
+.rem{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.row{
+  color: white;
+}
+
+.section5
+{
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+  margin-top: 110vh;
+}
+
+/* FOOTER */
+.footer {
+	width: 100%;
+
+	display: block;
+ }
+
+ .inner-footer {
+	 width: 95%;
+	 margin: auto;
+	 padding: 30px 10px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 box-sizing: border-box;
+	 justify-content: center;
+ }
+
+.footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	color: #000;
+}
+
+.footer-items p {
+	font-size: 14px;
+	text-align: justify;
+	line-height: 25px;
+	color: #000;
+}
+
+.footer-items h1 {
+	color: #000;
+}
+
+.border1 {
+	height: 3px;
+	width: 40px;
+	background: #731332;
+	color: #731332;
+	background-color: #731332;
+	border: 0px;
+}
+
+ul {
+	list-style: none;
+	color: #000;
+	font-size: 12px;
+	letter-spacing: 0.5px;	
+ }
+
+ul a {
+	text-decoration: none;
+	outline: none;
+	color: #000;
+	transition: 0.3s;
+}
+
+ul a:hover {
+	color:#731332;
+}
+
+ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+li i {
+	margin-right: 20px;
+}
+
+.social-media {
+	width: 100%;
+	color: #000;
+	text-align: center;
+	font-size: 20px;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media i {
+	height: 25px;
+	width: 25px;
+	margin: 20px 10px;
+	padding: 4px;
+	color: #000;
+	transition: 0.5s;
+}
+
+.social-media i:hover {
+	transform: scale(1.5);
+}
+
+.footer-bottom {
+	padding: 10px;
+	background: #00121b;
+	color: #000;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+	.footer-items {
+		width: 50%;
+	}
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+	.footer-items {
+		width: 100%;
+	}
+}
+
+/* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
+
+/* Thanks to Computer Conversations */
+
+
+.sectionps{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../images/v1_3.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+.main_div{
+    margin: 50px auto ;
+    background-color: #731332;
+    color: white;
+    width: 500px;
+    height: 80vh;
+    text-align: center;
+    padding: 50px;
+}
+.main_div p{
+    font-size: 12px;
+}
+
+.main_div ul{
+    font-size: 12px;
+    color: white;
+}
+
+
+/* login */
+.dbody{
+  font-family: "Kameron", cursive;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.dcontainer {
+  width: 100%;
+  max-width: 400px;
+}
+
+.dcard {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dh2 {
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  color: #333;
+}
+
+.input:focus {
+  border-color: #ff4500;
+}
+
+.dbutton {
+  background-color: #ff4500;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dbutton:hover {
+  background-color: #e63900;
+}
+
