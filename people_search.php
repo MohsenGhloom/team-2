@@ -13,6 +13,7 @@
 
 </head>
 <body>
+  <!-- main Navbar -->
 <div class="navheader">
 <div class="navcontainer">
 <div class="logo"><a href="#"><img src="images/BradfordWW1_logo7-300x136.png" width="200px" alt=""></a></div>
@@ -25,6 +26,7 @@
   </div>
 </div>
   </div>
+  <!-- frontend to of People search  -->
     <div class="sectionps">
         <div class="main_div">
             
@@ -35,10 +37,8 @@
 We may have additional information about the person you are interested in so please contact us. If you have information about a Bradford relative who undertook war service of any kind, please let us know so we can preserve their details for generations to come.
 <br><br>
 Material is constantly being researched for inclusion in the following databases.  These databases are updated when new data becomes available.</p>
-
-
 <ul>
-        
+        <!--linking the pages  -->
 <li><a href="view_buried.php" style="color:white">1. Names of those Buried in Bradford </a>
 </li>
 
