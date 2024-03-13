@@ -21,6 +21,29 @@ SET time_zone = "+00:00";
 -- Database: `bradford`
 --
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admins`
+--
+
+CREATE TABLE `admins` (
+  `admin_id` int(11) NOT NULL,
+  `name` varchar(80) NOT NULL,
+  `email` varchar(80) NOT NULL,
+  `password` varchar(18) NOT NULL,
+  `mobile` int(12) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `admins`
+--
+
+INSERT INTO `admins` (`admin_id`, `name`, `email`, `password`, `mobile`) VALUES
+(1, 'admin', 'admin@gmail.com', 'admin@1234', 1122334455),
+(2, 'aisha', 'ai@12', '123', 1234567890);
+
+-- --------------------------------------------------------
 
 --
 -- Table structure for table `bf_biography_info`
@@ -219,7 +242,30 @@ CREATE TABLE `bf_rollofhonour` (
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `users`
+--
 
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `name` varchar(80) NOT NULL,
+  `email` varchar(80) NOT NULL,
+  `password` varchar(80) NOT NULL,
+  `mobile` varchar(80) NOT NULL,
+  `address` varchar(80) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `mobile`, `address`) VALUES
+(0, 'user', 'user@gmail.com', 'jvhk', '123456789', 'address'),
+(1, 'user', 'user@gmail.com', '1234', '123456789', 'address'),
+(3, 'user', 'user@gmail.com', '1234', '123456789', 'address'),
+(5, 'user', 'user@gmail.com', 'user@123', '123456789', 'address');
+
+--
 -- Indexes for dumped tables
 --
 
